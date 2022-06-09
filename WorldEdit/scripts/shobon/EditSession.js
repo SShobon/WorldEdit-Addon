@@ -2,7 +2,8 @@
  *  WorldEdit Addon
  *  Copyright © 2022 SShobon
  *  Repost or redistribution of the contents, text, images, etc. of this addon is strictly prohibited
- *  If you wish to share WorldEdit Addon, please be sure to share this page:
+ *  If you would like to share the WorldEdit Addon, be sure to share one of these pages:
+ *  https://mcpedl.com/worldedit-addon-1/
  *  https://link-center.net/351352/worldedit-addon
  */
 import { SetBlocks } from "./SetBlocks.js";

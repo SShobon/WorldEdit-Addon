@@ -307,7 +307,6 @@ world.events.beforeChat.subscribe((event) => {
                 else {
                     command[2] = Number(command[2]);
                 }
-                if (r) location.y = command[2].length == 1 ? location.y + command[2][0] : location.y + command[2][1];
                 const affected = EditSession.pyramid(event.sender, event.sender.location, pattern, command[2], !h);
                 if (affected != undefined) Commands.tell(event.sender, `${affected} blocks have been created.`);
             }

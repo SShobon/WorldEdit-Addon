@@ -124,7 +124,7 @@ export class Commands {
             case "false":
                 return false
             default:
-                return undefined
+                return boolean
         }
     }
 }
